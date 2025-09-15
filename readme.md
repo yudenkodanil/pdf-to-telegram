@@ -1,4 +1,7 @@
 # PDF Extractor for Emergency Notifications  
+https://img.shields.io/badge/Python-3.6%252B-blue?logo=python
+https://img.shields.io/badge/License-MIT-green
+https://img.shields.io/badge/Platform-Windows%2520%257C%2520Linux%2520%257C%2520macOS-lightgrey
 
 Программа для автоматизированной обработки **экстренных извещений (ЭИ)** из PDF-файлов и подготовки текста для отправки в Telegram.  
 Инструмент создан для врачей-эпидемиологов и специалистов Роспотребнадзора, чтобы упростить извлечение ключевых данных из типовых форм.  
