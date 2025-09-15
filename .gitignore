@@ -3,3 +3,4 @@ venv/
 extracted_text/
 output/
 *.pdf
+.gitignore
