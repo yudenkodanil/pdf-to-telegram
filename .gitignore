@@ -1,0 +1,13 @@
+venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+*.log
+эи/
+extracted_text/
+output/
+*.pdf
+# main test.py
