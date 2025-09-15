@@ -32,7 +32,8 @@
    ```bash
    python -m venv venv
    source venv/bin/activate   # Linux / macOS
-   venv\Scripts\activate      # Windows
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   .\venv\Scripts\Activate.ps1      # Windows
    ```
 
 3. Установите зависимости:  
