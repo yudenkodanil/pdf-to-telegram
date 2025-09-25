@@ -52,6 +52,33 @@ pip install PyPDF2 tkinterdnd2
 
 ---
 
+## 1️⃣ Создание виртуального окружения
+
+| Платформа | Команды |
+|-----------|---------|
+| **Windows** | ```bash<br>cd путь/к/вашему/проекту<br>python -m venv venv``` |
+| **Mac / Linux** | ```bash<br>cd путь/к/вашему/проекту<br>python3 -m venv venv``` |
+
+## 2️⃣ Активация виртуального окружения
+
+| Платформа | Команды |
+|-----------|---------|
+| **Windows Command Prompt** | ```bash<br>venv\Scripts\activate``` |
+| **Windows PowerShell** | ```bash<br>.\venv\Scripts\Activate.ps1``` |
+| **Mac / Linux** | ```bash<b>source venv/bin/activate``` |
+
+> После активации вы увидите `(venv)` в начале строки терминала.
+
+
+python -m venv venv
+venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+
+---
+
+
 ## ▶️ Использование
 
 ```bash
@@ -111,3 +138,5 @@ pdf-notification-parser/
 Автор: [@yudenkodanil](https://t.me/yudenkodanil)
 
 ---
+
+pyinstaller --onefile --noconsole main.py

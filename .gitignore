@@ -1,6 +1,12 @@
+# Виртуальное окружение
 venv/
-эи/
-extracted_text/
-output/
-*.pdf
+
+# Сборки и дистрибутивы
+dist/
+buld/
+
+# Личные или служебные файлы
 .gitignore
+*.spec
+*.pyc
+__pycache__/
