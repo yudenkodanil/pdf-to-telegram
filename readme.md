@@ -69,12 +69,14 @@ pip install PyPDF2 tkinterdnd2
 
 > После активации вы увидите `(venv)` в начале строки терминала.
 
+## 3️⃣ Пример активации для Windows
 
+```bash
 python -m venv venv
 venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-
+```
 
 ---
 
