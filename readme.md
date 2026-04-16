@@ -137,6 +137,7 @@ pdf-notification-parser/
 ```bash
 pip install pyinstaller
 pyinstaller --onefile --noconsole main.py
+```
 
 ---
 
