@@ -132,11 +132,17 @@ pdf-notification-parser/
 
 ---
 
+## 📦 Сборка в .exe (для Windows)
+Чтобы скомпилировать программу в один исполняемый файл, который не требует установки Python:
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole main.py
+
+---
+
 ## 👨‍⚕️ Автор
 
 Разработано для практических задач врача-эпидемиолога.  
 Автор: [@yudenkodanil](https://t.me/yudenkodanil)
 
 ---
-
-pyinstaller --onefile --noconsole main.py
